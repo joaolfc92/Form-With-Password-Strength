@@ -8,7 +8,4 @@ https://github.com/mariusschulz/jQuery.passwordStrength
 
 
 
-![password (1)-min](https://user-images.githubusercontent.com/46541402/75929888-3eaad880-5e50-11ea-83ee-4af34e14032e.gif)
-
-
 ![password](https://user-images.githubusercontent.com/46541402/75929982-6d28b380-5e50-11ea-8f01-bea88b760765.gif)
