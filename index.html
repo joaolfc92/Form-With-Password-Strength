@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário com validação de senha</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="jquery.passwordstrength.js"></script>
+</head>
+<body>
+    <form action="">
+        <img src="user.png" alt="">
+        <div class="input-box">
+            <span><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" placeholder="Usuário" required>
+        </div>
+
+        <div class="input-box">
+            <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+            <input type="email" placeholder="E-mail" required>
+        </div>
+
+        <div class="input-box">
+            <span><i class="fa fa-key" aria-hidden="true"></i></span>
+            <input type="password" id="password" placeholder="Digite sua Senha" required>
+        </div>
+
+        <button type="submit"><i class="fa fa-sign-in" aria-hidden="true"></i>Registrar</button>
+
+
+        <script>
+            
+    $(function() {
+        $("#password").passwordStrength();
+        
+    });
+
+
+    
+
+        </script>
+    </form>
+</body>
+</html>
